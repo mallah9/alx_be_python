@@ -1,7 +1,5 @@
-# This Python file uses the following encoding: utf-8
-import os, sys
-number1 = int(10) 
-number2 = int(5)
+number1 = 10 
+number2 = 5
 sum = number1 + number2
 subtraction = number1 - number2
 product = number1 * number2
