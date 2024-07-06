@@ -1,7 +1,7 @@
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
-reminder = f"Reminder: {priority} priority task: {task}"
+reminder = f"Reminder: {task} is a {priority} priority task "
 
 if time_bound == "yes":
     reminder += "that requires immediate attention today!"
