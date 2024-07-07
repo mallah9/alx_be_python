@@ -1,7 +1,5 @@
 def display_menu():
-  """
-  This function displays the menu options for the shopping list manager.
-  """
+
   print("Shopping List Manager")
   print("1. Add Item")
   print("2. Remove Item")
@@ -22,6 +20,8 @@ def display_menu():
   else:
     print(f"{item_name} not found in the list.")
 
+def view_list(shopping_list):
+ 
   if shopping_list:
     print("Shopping List: ")
     for item in shopping_list:
