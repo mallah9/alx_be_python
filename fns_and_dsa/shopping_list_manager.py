@@ -23,7 +23,7 @@ def display_menu():
     print(f"{item_name} not found in the list.")
 
   if shopping_list:
-    print("Your Shopping List:")
+    print("Shopping List: ")
     for item in shopping_list:
       print(f"- {item}")
   else:
@@ -42,5 +42,3 @@ def display_menu():
     elif choice == '4':
       print("Goodbye!")
       break
-    else:
-      print("Invalid choice. Please try again.")
