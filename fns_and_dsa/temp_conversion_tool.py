@@ -22,5 +22,4 @@ while True:
         raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
       print(f"{temperature:.1f}{unit_label} is {converted_temp:.2f}{converted_unit_label}")
       break
-    except ValueError as e:
-      print(f"Error: {e}")
+
