@@ -19,7 +19,7 @@ while True:
         unit_label = "°F"
         converted_unit_label = "°C"
       else:
-        raise ValueError("Invalid unit. Please enter 'C' or 'F'.")
+        raise ValueError("Invalid temperature. Please enter a numeric value.")
       print(f"{temperature:.1f}{unit_label} is {converted_temp:.2f}{converted_unit_label}")
       break
 
